@@ -5,7 +5,7 @@ Custom Scenario for FiveM, replacing the existing stables.ymt scenario (Martin M
 
 Made to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Caniche and https://github.com/TayMcKenzieNZ/fivem-scenarios
 
-This resource requires gamebuild 2189 (Cayo Perico) or higher, as the mp_manifest was taken from the latest gamebuild.
+This resource requires gamebuild 2189 (Cayo Perico) or higher, as the sp_manifest was taken from the latest gamebuild.
 
 If you find any bugs, try noclipping or teleporting elsewhere, then coming back. 
 
