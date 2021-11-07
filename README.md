@@ -16,5 +16,9 @@ If you would like to addon to this resource and modify existing scenarios in the
 
 `<Name>compcache:/ranch_scenario/xxxxxxx</Name>` If you rename the resource, you will need to rename `ranch_scenario`
 
+I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM:
+
+https://www.gta5-mods.com/scripts/scenario-groups
+
 
 
