@@ -1,7 +1,7 @@
 # Ranch-Scenario
 
 
-Custom Scenario for FiveM, replacing the existing stables.ymt scenario (Martin Madrazo's Ranch).
+Custom Scenario for FiveM, replacing alamo_sea, downtown, farmers_market, sandy_shores, senora_hill, and stables (Martin Madrazo's Ranch)
 
 Made to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Caniche and https://github.com/TayMcKenzieNZ/fivem-scenarios
 
@@ -14,9 +14,9 @@ This is by all means not the final product, and is a test of my abilities stream
 
 If you would like to addon to this resource and modify existing scenarios in the world, open the `sp_manifest.ymt` file and rename the scenario to
 
-`<Name>compcache:/ranch_scenario/xxxxxxx</Name>` If you rename the resource, you will need to rename `ranch_scenario`
+`<Name>compcache:/server_scenarios/xxxxxxx</Name>` If you rename the resource, you will need to rename `server_scenarios`
 
-I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM:
+I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM after renaming them in the sp_manifest:
 
 https://www.gta5-mods.com/scripts/scenario-groups
 
