@@ -1,4 +1,4 @@
-# Ranch-Scenario
+# Server Scenarios
 
 
 Custom Scenario for FiveM, replacing alamo_sea, downtown, farmers_market, sandy_shores, senora_hill, and stables (Martin Madrazo's Ranch)
