@@ -16,8 +16,10 @@ If you would like to addon to this resource and modify existing scenarios in the
 
 `<Name>compcache:/server_scenarios/xxxxxxx</Name>` If you rename the resource, you will need to rename `server_scenarios`
 
-For example, `<Name>compcache:/nopixel_scenarios/downtown</Name>`
+For example, `<Name>compcache:/nopixel_scenarios/downtown</Name>`.
 
+
+The resource and the scenarios must be in lowercase.
 
 I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM after renaming them in the sp_manifest:
 
