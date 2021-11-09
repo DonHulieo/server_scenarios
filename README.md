@@ -1,11 +1,25 @@
 # Server Scenarios
 
 
-Custom scenario for FiveM, replacing alamo_sea, downtown, farmers_market, sandy_shores, senora_hill, and stables (Martin Madrazo's Ranch)
+Custom and modified scenarios for FiveM, replacing:
 
-Made to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Caniche and https://github.com/TayMcKenzieNZ/fivem-scenarios
+* alamo_sea
+* downtown
+* farmers_market
+* sandy_shores
+* senora_hill
+* stables (Martin Madrazo's Ranch)
+* vespucci
+* vespucci_beach_north
+* vespucci_beach_south
+* vespucci_police_dept
 
-This resource requires gamebuild 2189 (Cayo Perico) or higher, as the sp_manifest was taken from the latest gamebuild.
+Removes triathlon related scenarios, as well as prostitutes from Vespucci Beach
+
+
+Stables scenario to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Caniche and https://github.com/TayMcKenzieNZ/fivem-scenarios
+
+This resource requires **gamebuild 2189 (Cayo Perico) or higher**, as the sp_manifest was taken from the **latest gamebuild.**
 
 If you find any bugs, try noclipping or teleporting elsewhere, then coming back. 
 
