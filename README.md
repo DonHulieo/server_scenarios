@@ -5,17 +5,51 @@
 Custom and modified scenarios for FiveM, replacing:
 
 * alamo_sea
+* 
 * bolingbroke_penitentiary
+* 
+* cypress_flats
+
+* del_perro_beach
+
+* del_perro_carpark
+
 * del_perro_shops
+
 * downtown
+
+* east_vinewood
+
+* facility_main (Player online doomsday facility, requires bob74_ipl to be configured)
+
 * farmers_market
-* facility_main (requires bob74_ipl, places NPCs inside FIB facility)
-* farmers_market
+
 * lsia_terminal
-* sandy_shores
-* senora_hill
-* stables (Martin Madrazo's Ranch)
+
+* pacific_bluffs
+
+* race_course (Diamond Casino & Resort)
+
+* sandy_shores (Police station scenarios and more)
+
+* senora_hills
+
+* south_los_santos
+
+* stablescustom (Tay's own personal scenario, replacing Madrazo's Ranch scenarios)
+
+* vespucci
+
+* vespucci_beach
+
+* vespucci_beach_north
+
+* vespucci_beach_south
+
+* vespucci_police_dept
+
 * vinewood
+
 
 ----------
 
