@@ -1,30 +1,62 @@
 # Server Scenarios
 
+----------
 
 Custom and modified scenarios for FiveM, replacing:
 
 * alamo_sea
+* bolingbroke_penitentiary
+* del_perro_shops
 * downtown
 * farmers_market
+* facility_main (requires bob74_ipl, places NPCs inside FIB facility)
+* farmers_market
+* lsia_terminal
 * sandy_shores
 * senora_hill
 * stables (Martin Madrazo's Ranch)
-* vespucci
-* vespucci_beach_north
-* vespucci_beach_south
-* vespucci_police_dept
+* vinewood
 
-Removes triathlon related scenarios, as well as prostitutes from Vespucci Beach
-
+----------
 
 Stables scenario to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Caniche and https://github.com/TayMcKenzieNZ/fivem-scenarios
 
+----------
+
 This resource requires **gamebuild 2189 (Cayo Perico) or higher**, as the sp_manifest was taken from the **latest gamebuild.**
 
-If you find any bugs, try noclipping or teleporting elsewhere, then coming back. 
+If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
+
+----------
+
+You may find triathlon related scenarios in the following locations, I am yet to be able to delete/disable them, however if you somehow manage to, feel free to send me a pull request. The scenario files are as followed:
+
+* alamo_sea
+
+* del_perro_beach
+
+* del_perro_carpark
+
+* pacific_bluffs
+
+* sandy_shores
+
+* senora_hill
+
+* vespucci
+
+* vespucci_beach_north
+
+* vespucci_beach_south
+
+* vespucci_police_dept
+
+* vinewood
+
+----------
 
 
-This is by all means not the final product, and is a test of my abilities streaming and overriding scenarios in FiveM.
+This is by all means a "work in progress" release, and is a test of my abilities streaming and overriding scenarios in FiveM.
 
 If you would like to addon to this resource and modify existing scenarios in the world, open the `sp_manifest.ymt` file and rename the scenario to
 
