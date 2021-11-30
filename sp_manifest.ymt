@@ -199,7 +199,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>compcache:/server_scenarios//del_perro_beach</Name>
+   <Name>compcache:/server_scenarios/del_perro_beach</Name>
    <AABB>
     <min x="-2527.196" y="-1151.338" z="-4.916913" />
     <max x="-1420.405" y="-465.8145" z="22.16492" />
@@ -220,7 +220,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>compcache:/server_scenarios/del_perro_shops</Name>
+   <Name>platform:/levels/gta5/scenario/del_perro_shops</Name>
    <AABB>
     <min x="-1566.885" y="-889.5272" z="10.31145" />
     <max x="-1134.751" y="-451.3324" z="34.65085" />
@@ -304,7 +304,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>compcache:/server_scenarios/facility_main</Name>
+   <Name>platform:/levels/gta5/scenario/facility_main</Name>
    <AABB>
     <min x="246.2371" y="4690.791" z="-63.60006" />
     <max x="527.2656" y="4972.118" z="-59.99947" />
@@ -899,7 +899,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>compcache:/server_scenarios/vespucci_beach</Name>
+   <Name>platform:/levels/gta5/scenario/vespucci_beach</Name>
    <AABB>
     <min x="-2209.891" y="-1893.06" z="-15.22681" />
     <max x="-1093.646" y="-427.1566" z="75" />
