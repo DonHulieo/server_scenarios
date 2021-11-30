@@ -29,7 +29,7 @@ If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
 
 ----------
 
-I have tried my best to remove triathlon, cheering, clapping, and paparazzi related scenarios in the following locations, however if you happen to find some, feel free to send me a pull request. The scenario files are as followed:
+I have tried my best to remove triathlon, cheering, clapping, and paparazzi related scenarios in the following locations, however if you happen to find some, feel free to send me a pull request. The scenario files are as followed. If you wish to edit the following areas, edit the ones I have provided:
 
 * alamo_sea
 
