@@ -171,7 +171,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/cypress_flats</Name>
+   <Name>compcache:/server_scenarios/cypress_flats</Name>
    <AABB>
     <min x="605.3225" y="-2562.159" z="7.814811" />
     <max x="1139.046" y="-1620.703" z="56.13356" />
@@ -276,7 +276,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/east_vinewood</Name>
+   <Name>compcache:/server_scenarios/east_vinewood</Name>
    <AABB>
     <min x="642.8129" y="-570.237" z="1.061654" />
     <max x="1271.997" y="43.13737" z="82.93035" />
@@ -689,7 +689,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/race_course</Name>
+   <Name>compcache:/server_scenarios/race_course</Name>
    <AABB>
     <min x="767.5012" y="-133.1714" z="65.96994" />
     <max x="1546.339" y="538.23" z="223.1963" />
@@ -822,7 +822,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/south_los_santos</Name>
+   <Name>compcache:/server_scenarios/south_los_santos</Name>
    <AABB>
     <min x="-357.9139" y="-2032.668" z="22.02884" />
     <max x="557.4948" y="-1112.924" z="94.12113" />
@@ -899,7 +899,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/vespucci_beach</Name>
+   <Name>compcache:/server_scenarios/vespucci_beach</Name>
    <AABB>
     <min x="-2209.891" y="-1893.06" z="-15.22681" />
     <max x="-1093.646" y="-427.1566" z="75" />
