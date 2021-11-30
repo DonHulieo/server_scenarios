@@ -5,9 +5,9 @@
 Custom and modified scenarios for FiveM, replacing:
 
 * alamo_sea
-* 
+
 * bolingbroke_penitentiary
-* 
+
 * cypress_flats
 
 * del_perro_beach
