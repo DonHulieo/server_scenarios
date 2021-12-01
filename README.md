@@ -57,7 +57,7 @@ Stables scenario to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Can
 
 ----------
 
-This resource requires **gamebuild 2189 (Cayo Perico) or higher**, as the sp_manifest was taken from the **latest gamebuild.**
+# This resource requires **gamebuild 2189 (Cayo Perico) or higher**, as the sp_manifest was taken from the **latest gamebuild.**
 
 If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
 
@@ -100,7 +100,7 @@ For example, `<Name>compcache:/nopixel_scenarios/downtown</Name>`.
 
 ----------
 
-# Installation:
+# Installation ⚙️:
 
 
 The resource and the scenarios must be in lowercase and must match what is written in the sp_manifest file.
