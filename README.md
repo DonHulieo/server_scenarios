@@ -98,8 +98,20 @@ If you would like to addon to this resource and modify existing scenarios in the
 
 For example, `<Name>compcache:/nopixel_scenarios/downtown</Name>`.
 
+----------
 
-The resource and the scenarios must be in lowercase.
+# Installation:
+
+
+The resource and the scenarios must be in lowercase and must match what is written in the sp_manifest file.
+
+* Download the resource and rename the folder to server_scenarios.
+
+* Add `start server_scenarios` to your server.cfg
+
+Again, if you rename the resource, you must change the file paths in the sp_manifest as stated above
+
+----------
 
 I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM after renaming them in the sp_manifest:
 
