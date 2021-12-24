@@ -61,6 +61,8 @@ Stables scenario to work alongside https://github.com/TayMcKenzieNZ/Ranch-De-Can
 
 If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
 
+You can join the codewalker discord and grab the latest codewalker version to modify and / or add custom scenarios.
+
 ----------
 
 You may find triathlon related scenarios in the following locations, I am yet to be able to delete/disable them, however if you somehow manage to, feel free to send me a pull request. The scenario files are as followed:
@@ -110,6 +112,12 @@ The resource and the scenarios must be in lowercase and must match what is writt
 * Add `start server_scenarios` to your server.cfg
 
 Again, if you rename the resource, you must change the file paths in the sp_manifest as stated above
+
+----------
+
+# Mpsecurity & Future DLCs
+
+* You can simply search for new scenario entries in your own copy of sp_manifest using OpenIV or Codewalker's RPF explorer and copying those entries to the sp_manifest file which I have provided.
 
 ----------
 
