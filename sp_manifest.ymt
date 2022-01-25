@@ -248,7 +248,7 @@
    </AABB>
   </Item>
   <Item type="CScenarioPointRegionDef">
-   <Name>platform:/levels/gta5/scenario/downtown_construction_site</Name>
+   <Name>compcache:/server_scenarios/downtown_construction_site</Name>
    <AABB>
     <min x="-368.8696" y="-1183.929" z="17.63847" />
     <max x="46.45136" y="-781.7375" z="107.8484" />
