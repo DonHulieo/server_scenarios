@@ -187,12 +187,12 @@ As I've stated above, you can find newer scenarios in your own copy of sp_manife
 
 ---------------------
 
-**Q:** When I edit the sp_manifest file, it appears to be smaller than the one you provided, or it's weird symbols / crashes my server.
+**Q: When I edit the sp_manifest file, it appears to be smaller than the one you provided, or it's weird symbols / crashes my server.**
 
 **A:** Try using [Notepad++](https://notepad-plus-plus.org/downloads/)
 
 ---------------------
 
-**Q:** Can I contact you on Discord or anywhere else for one on one support?**
+**Q:** Can I contact you on Discord or anywhere else for one on one support?
 
 **A:** No
