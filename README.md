@@ -134,9 +134,9 @@ https://www.gta5-mods.com/scripts/scenario-groups
 
 # FAQ:
 
-**How can I tell if this resource is working?**
+**Q: How can I tell if this resource is working?**
 
-- Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deer, pigs, chickens, cows and Poodles. If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.
+**A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deer, pigs, chickens, cows and Poodles. If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.
 You can then rename `stablescustom` back to `stables` and revert it back to:
 
 ```lua
@@ -155,19 +155,17 @@ data_file 'FIVEM_LOVES_YOU_4B38E96CC036038F' 'events.meta'
 ```
 
 ---------------------
----------------------
 
-**When I go to a (certain area) on foot, in a vehicle or by other means, my game crashes?**
+**Q: When I go to a (certain area) on foot, in a vehicle or by other means, my game crashes?**
 
-- The scenario file may be corrupt or you've done something to it, ie deleting chains or path nodes. 
+**A:** The scenario file may be corrupt or you've done something to it, ie deleting chains or path nodes. 
 If you wish to delete or modify chains, try `CW 26 dev 7` (available from codewalker discord) as this seems to work for editing chains and deleting them ***without*** running into crashes.
 
 -----------------
----------------------
 
-**Please make this work with XXXX DLC!**
+**Q: Please make this work with XXXX DLC!**
 
-- You can simply search for new scenario entries in your own copy of sp_manifest using OpenIV or Codewalker's RPF explorer and copy those entries to the sp_manifest file which I have provided.
+**A:** You can simply search for new scenario entries in your own copy of sp_manifest using OpenIV or Codewalker's RPF explorer and copy those entries to the sp_manifest file which I have provided.
 However, if you are trying to run this on DLC ***older*** than Cayo Perico (2189), try removing the following entry from the `sp_manifest.ymt` file, as this is responsible for Cayo Perico scenarios that your DLC doesn't have, which will cause crashes and issues:
 
 ```lua
@@ -180,16 +178,21 @@ However, if you are trying to run this on DLC ***older*** than Cayo Perico (2189
   </Item>
 ```
 ---------------------
----------------------
 
-**DLC XXX just dropped, do you plan to update this?**
+**Q: DLC XXX just dropped, do you plan to update this?**
 
-No, because I have to grab the sp_manifest.ymt from my own copy of GTA 5 and provide it here on GitHub, and I'm not entirely sure what scenario file is from what DLC, however I am aware of the Cayo Perico one.
+**A:** No, because I have to grab the sp_manifest.ymt from my own copy of GTA 5 and provide it here on GitHub, and I'm not entirely sure what scenario file is from what DLC, however I am aware of the Cayo Perico one.
+
 As I've stated above, you can find newer scenarios in your own copy of sp_manifest.ymt, copy and paste them into mine which I have provided, and it should work 😛
 
 ---------------------
+
+**Q:** When I edit the sp_manifest file, it appears to be smaller than the one you provided, or it's weird symbols / crashes my server.
+
+**A:** Try using [Notepad++](https://notepad-plus-plus.org/downloads/)
+
 ---------------------
 
-**Can I contact you on Discord or anywhere else for one on one support?**
+**Q:** Can I contact you on Discord or anywhere else for one on one support?**
 
-**No**
+**A:** No
