@@ -117,7 +117,9 @@ For example,
 
 The resource and the scenarios must be in **lowercase** and must **match** what is written in the sp_manifest file.
 
-* Download the resource and rename the folder to **server_scenarios**.
+* Download the resource and rename the folder to **server_scenarios** by removing the `-main` from it's name.
+
+**Ignoring this step will result in crashes to desktop**
 
 * Add `start server_scenarios` to your **server.cfg**
 
