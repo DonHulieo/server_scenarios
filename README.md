@@ -136,9 +136,18 @@ https://www.gta5-mods.com/scripts/scenario-groups
 
 # FAQ:
 
+**Q: When loading into the server, it crashes to desktop and I am greeted with an error message. Help!**
+
+**A:** Remove `-main` from the folder name. **It must be called server_scenarios**
+
+---------------------
+
 **Q: How can I tell if this resource is working?**
 
-**A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deer, pigs, chickens, cows and Poodles. If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.
+**A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deer, pigs, chickens, cows and Poodles.
+
+If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.
+
 You can then rename `stablescustom` back to `stables` and revert it back to:
 
 ```lua
@@ -195,7 +204,7 @@ As I've stated above, you can find newer scenarios in your own copy of sp_manife
 
 ---------------------
 
-**Q:** Can I contact you on Discord or anywhere else for one on one support?
+**Q: Can I contact you on Discord or anywhere else for one on one support?**
 
 **A:** No
 
