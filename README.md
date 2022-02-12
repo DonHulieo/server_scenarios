@@ -59,6 +59,8 @@ Stables scenario to work alongside [Ranch De Caniche](https://github.com/TayMcKe
 
 # This resource requires **gamebuild 2189 (Cayo Perico) or higher**, as the sp_manifest was taken from that DLC.
 
+You can force your FiveM server to 2189 or higher by reading my [tutorial](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-tuners-future-dlcs/4784977).
+
 If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
 
 You can join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the **latest** codewalker version to modify and / or add custom scenarios.
@@ -67,7 +69,7 @@ You can join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab th
 
 ----------
 
-You may find triathlon related scenarios lurking in the following locations, I am yet to be able to delete/disable them all completely, however if you somehow manage to, feel free to send me a pull request. The scenario files are as followed:
+You may find triathlon related scenarios lurking in the following locations, I have yet to delete/disable them all completely, however if you somehow manage to, feel free to send me a pull request. The scenario files are as followed:
 
 * alamo_sea
 
@@ -102,7 +104,7 @@ If you would like to addon to this resource and modify existing scenarios in the
 `<Name>compcache:/server_scenarios/xxxxxxx</Name>`
 ```
 
-If you rename the resource, you will need to rename `server_scenarios`
+If you rename the resource, you ***MUST*** rename `server_scenarios`
 
 For example, 
 
@@ -170,13 +172,12 @@ data_file 'FIVEM_LOVES_YOU_4B38E96CC036038F' 'events.meta'
 **Q: When I go to a (certain area) on foot, in a vehicle or by other means, my game crashes?**
 
 **A:** The scenario file may be corrupt or you've done something to it, ie deleting chains or path nodes. 
-If you wish to delete or modify chains, try `CW 26 dev 7` (available from codewalker discord) as this seems to work for editing chains and deleting them ***without*** running into crashes.
 
 -----------------
 
 **Q: Please make this work with XXXX DLC!**
 
-**A:** You can simply search for new scenario entries in your own copy of sp_manifest using OpenIV or Codewalker's RPF explorer and copy those entries to the sp_manifest file which I have provided.
+**A:** You can simply search for new scenario entries in your ***own*** copy of sp_manifest using OpenIV or Codewalker's RPF explorer and copy those entries to the sp_manifest file which I have provided.
 However, if you are trying to run this on DLC ***older*** than Cayo Perico (2189), try removing the following entry from the `sp_manifest.ymt` file, as this is responsible for Cayo Perico scenarios that your DLC doesn't have, which will cause crashes and issues:
 
 ```lua
@@ -206,7 +207,7 @@ As I've stated above, you can find newer scenarios in your own copy of sp_manife
 
 **Q: Can I contact you on Discord or anywhere else for one on one support?**
 
-**A:** No
+**A: NO**
 
 ---------------------
 
