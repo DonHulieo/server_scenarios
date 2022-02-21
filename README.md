@@ -61,7 +61,6 @@ Stables scenario to work alongside [Ranch De Caniche](https://github.com/TayMcKe
 
 You can force your FiveM server to 2189 or higher by reading my [tutorial](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-tuners-future-dlcs/4784977).
 
-If you find any bugs, try noclipping or teleporting elsewhere, then coming back.
 
 You can join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the **latest** codewalker version to modify and / or add custom scenarios.
 
@@ -98,7 +97,11 @@ You may find triathlon related scenarios lurking in the following locations, I h
 
 This is by all means a **"work in progress"** release, and is a test of my abilities streaming and overriding scenarios in FiveM.
 
-If you would like to addon to this resource and modify existing scenarios in the world, open the `sp_manifest.ymt` file and rename the scenario to
+There may be some crashes in certain location; this is apparently due to the deletion of 'clusters'.
+
+If you are unsure about something, leave it, or set the flag to 2, aka `NoSpawn`.
+
+If you would like to addon to this resource and modify existing scenarios in the world, open the `sp_manifest.ymt` file and rename the scenario to:
 
 ```lua
 `<Name>compcache:/server_scenarios/xxxxxxx</Name>`
@@ -112,6 +115,7 @@ For example,
 `<Name>compcache:/nopixel_scenarios/downtown</Name>`
 ```
 
+It's probably best to keep it lowercase too.
 ----------
 
 # Installation ⚙️:
@@ -140,7 +144,9 @@ https://www.gta5-mods.com/scripts/scenario-groups
 
 **Q: When loading into the server, it crashes to desktop and I am greeted with an error message. Help!**
 
-**A:** Remove `-main` from the folder name. **It must be called server_scenarios**
+**A:** Remove `-main` from the folder name. **It must be called server_scenarios**. 
+
+Also try changing the flag of chains and cluster to 2, rather than removing them.
 
 ---------------------
 
@@ -171,7 +177,7 @@ data_file 'FIVEM_LOVES_YOU_4B38E96CC036038F' 'events.meta'
 
 **Q: When I go to a (certain area) on foot, in a vehicle or by other means, my game crashes?**
 
-**A:** The scenario file may be corrupt or you've done something to it, ie deleting chains or path nodes. 
+**A:** The scenario file may be corrupt or you've done something to it, ie deleting chains or clusters. 
 
 -----------------
 
