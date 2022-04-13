@@ -1,5 +1,11 @@
 # Server Scenarios 🚶‍♂️
 
+----------
+
+# Open to Pull Requests.
+
+----------
+
 A FiveM resource by TayMcKenzieNZ allowing custom and modified scenarios to work in your servers.
 
 I have modified and provided the following, as they would spawn peds on the street clapping, cheering, taking photos and other strange anomalies. Feel free to modify them if your MLO or whatever is in these areas:
