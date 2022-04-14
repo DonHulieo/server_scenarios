@@ -81,6 +81,8 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 **A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deers, pigs, chickens, cows and Poodles.
 
+<img src="screenshots/stables.png" width="850">
+
 
 **If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.**
 
