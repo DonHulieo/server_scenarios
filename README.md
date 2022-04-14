@@ -5,59 +5,36 @@ A FiveM resource by TayMcKenzieNZ allowing custom and modified scenarios to work
 
 Contains modified stables scenario at Madrazo's Ranch and downtown construction scenario.
 
-------------------
+**This resource requires gamebuild 2189 (Cayo Perico) or higher, as the sp_manifest was taken from that DLC.**
 
-# This resource requires gamebuild 2189 (Cayo Perico) or higher, as the sp_manifest was taken from that DLC.
-
-You can force your FiveM server to 2189 or higher by reading my tutorial https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977
+You can force your FiveM server to 2189 or higher by reading my [tutorial](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
 ------------------
 
 
-This is by all means a "work in progress" release, and is a test of my abilities streaming and overriding scenarios in FiveM.
-
-
-You can join the Codewalker Discord and grab the latest codewalker version to modify and / or add custom scenarios.
-
-- Drag and drop sp_manifest.ymt into cw rpf explorer with edit mode on
-
-- Right click, export as xml, now it will open in any text editor
-
-- Add new scenario entry, save
-
-- Drag and drop back into cw rpf explorer, now drag it back out, it is now a ymt file
-
+**This is by all means a "work in progress" release, and is a test of my abilities streaming and overriding scenarios in FiveM.**
 
 ------------------
 
-# The resource and the scenarios must be in lowercase and must match what is written in the sp_manifest file.
+# How To Add Scenarios 🚶‍♂️
 
-if you rename the resource, you must change the file paths in the sp_manifest
+- Join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the latest codewalker version from the `#releases` channel
 
-For example,
+- Drag and drop `sp_manifest.ymt` into Codewalker RPF Explorer with edit mode on
 
-`<Name>compcache:/nopixel_scenarios/downtown</Name>`
+- Right click, export as xml onto your desktop, now it will open in any text editor
 
-------------------
+- Open a text editor and add new scenario entry
 
-I have personally tested the following scenarios alongside this repository, and can confirm that they are working in FiveM:
+- You will need to find YOUR copy of sp_manifest.ymt in your copy of GTA 5
 
-https://www.gta5-mods.com/scripts/scenario-groups
-
-------------------
-
-# Adding Scenarios
-
-
-You will need to find YOUR copy of sp_manifest.ymt in your copy of GTA 5
-
-Find the scenario information to copy and paste into the sp_manifest.ymt that I have provided
+- Find the scenario information to copy and paste into the sp_manifest.ymt that I have provided
 
 Once you have pasted the required scenario information, rename `platform:/levels/gta5/scenario/blablabla` to `compcache:/server_scenarios/blablablabla`.
 
 It should look like so:
 
-```
+```xml
 <Item type="CScenarioPointRegionDef">
    <Name>compcache:/server_scenarios/downtown_construction_site</Name>
    <AABB>
@@ -67,74 +44,101 @@ It should look like so:
   </Item>
 ```
 
-------------------
+- Drag and drop `sp_manifest.ymt` back into Codewalker RPF Explorer, now drag it back out
 
-# FAQ:
+- Congratulations! It is now a ymt file
 
-Q: When loading into the server, it crashes to desktop and I am greeted with an error message. Help!
+- Override the current `sp_manifest.ymt` that is in your server's server_scenarios resource
 
-A: Remove -main from the folder name. It must be called server_scenarios.
+- Enjoy your new / customised scenarios streaming to your server
 
-Q: How can I tell if this resource is working?
-
-A: Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deer, pigs, chickens, cows and Poodles.
-
-If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.
-
-Q: Please make this work with XXXX DLC!
-
-A: It should
-
-Q: Can I contact you on Discord or anywhere else for one on one support?
-
-A: NO
 
 ------------------
 
-License 📝
-This project does not contain a license, therefore you are not allowed to add one and claim it as yours.
+# ⚠️ Important Notice
 
-You are not allowed to sell this nor re-distribute it.
+The resource and the scenarios **must** be in *lowercase* and must match what is written in the sp_manifest file.
 
-You are not allowed to change/add a license. If you want to modify or make an agreement, you can contact me.
+For example, if you rename the resource to `nopixel_scenarios` , you must change the file paths in the sp_manifest to match the resource name;
 
-Pull requests are accepted as long as they do not contain breaking changes.
+`<Name>compcache:/nopixel_scenarios/downtown</Name>`
+
+------------------
+
+I have personally tested the [following scenarios](https://www.gta5-mods.com/scripts/scenario-groups) alongside this resource, and can confirm that they are working in FiveM:
+
+------------------
+
+# FAQ 💬:
+
+**Q: When loading into the server, it crashes to desktop and I am greeted with an error message. Help!**
+
+**A:** Remove `main` from the folder name. It must be called server_scenarios.
+
+------------------
+
+**Q: How can I tell if this resource is working?**
+
+**A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deers, pigs, chickens, cows and Poodles.
+
+
+**If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.**
+
+------------------
+
+**Q: Can you please make this work with XXXX DLC!**
+
+**A:** It should already work for DLCs above 2189 Cayo Perico DLC, do let me know if it doesn't
+
+------------------
+
+**Q: Can I contact you on Discord or anywhere else for one on one support?**
+
+**A:** NO. If you do happen to tag me on codewalker or DM me on the FiveM forums, you will be ignored.
+
+------------------
+
+# License 
+
+**This repository by TayMcKenzieNZ does not contain a license and is strictly open source, therefore you are not allowed to add one and claim it as yours.**
+
+**You are not allowed to sell this nor re-distribute it.** 
+
+**You are not allowed to change/add a license. If you want to modify it, you are free to do so, as long as you do not plan to sell it.** 
+
+**Pull requests are accepted as long as they do not contain breaking changes.** 
+
+You can read more here [HERE](https://opensource.stackexchange.com/questions/1720/what-can-i-assume-if-a-publicly-published-project-has-no-license)
 
 ------------------
 
 # More Info
 
-+ Simplified server side scenarios - Only one file to test with
-	+ File found on /stream will remove all NPCs at the terminal and car spawns, will look "deserted" 
-	+ Credit goes to d-bub on Discord for:  data_file "SCENARIO_POINTS_OVERRIDE_PSO_FILE" "sp_manifest.ymt"
+Credit goes to d-bub on Discord for the discovery of the required `data_file "SCENARIO_POINTS_OVERRIDE_PSO_FILE" "sp_manifest.ymt"`.
+
+Long story short about PSO, is that allows proper data format to be used rather than "fake" ymt files, which translates in ability to stream particular scenario files. No longer do we need to stream 100+ scenarios / all just to keep the server from crashing.
+
+------------------
+
+- Inside the sp_manifest.ymt and short how to
+
++ **compcache:/server_scenarios/**
+
++ **"compcache"**  = Means the streamed file is "custom/modified"
+
++ **"/server_scenarios/"**  = Is where the scenario file is stored, NOT A VANILLA/unmodified file
+
++ "stables"  = File name without extension, do not use uppercase or spaces if you stream a custom file name
 
 
-	- Whats new:
-	+ Only the "_PSO_" for data_file - Long story short about PSO is that allows proper data format to be 
-		used, not "fake" ymt, which translates in ability to stream particular scenario files, no need 
-		for 100+/all just to keep the server from crashing
+- **Using the same name as a default original GTA 5 scenario, will cancel the default scenario**
 
++ Vanilla scenario files can be streamed as normal
 
-
++ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area  will play
 	
-	- Inside the sp_manifest.ymt and short how to
+**How to stream a default vanilla scenario?**
 
-	+ compcache:/server_scenarios/terminal
-	+ "compcache" 		= Means the streamed file is "custom/modified"
-	+ "/server_scenarios/"	= Is where the scenario file is stored, NOT A VANILLA/unmodified file
-	+ "terminal"		= File name without extension, do not use uppercase or spaces if you stream a custom 
-		file name
-	+ Using same name for a scenario as vanilla, will overwrite/cancel default vanilla.
-	+ Vanilla scenario files can be streamed as normal
-	+ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area 
-		will play
-	
-	- How to stream a default vanilla scenario ? 
-	+ Add an entry like is defined on vanilla "sp_manifest.ymt" - EG: platform:/levels/gta5/scenario/downtown
-	+ Notice that "platform:/" is for default scenario location and "compcache:/" is for custom 
++ Add an entry like is defined on vanilla "sp_manifest.ymt" - EG: platform:/levels/gta5/scenario/downtown
 
-	- How do you create a scenario  ? 
-	+ Google CodeWalker Discord, join, get the latest version from #releases (Do _NOT_ use the gta5-mods one,is way 
-		outdated)
-	+ Hit Youtube for video tutorials, topic too complex to cover here
-
++ Notice that "platform:/" is for default scenario location and "compcache:/" is for custom
