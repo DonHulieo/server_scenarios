@@ -16,6 +16,20 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
+# Features
+
+- Workers at Madrazo's Ranch
+
+- Poodles at Madrazo's Ranch
+
+- Maids inside interior of Madrazo's Ranch
+
+- Personal chef inside interior of Madrazo's Ranch
+
+- Removed interior and exterior scenarios and vehicle scenarios from MRPD for use with custom MLOs
+
+------------------
+
 # How To Add Scenarios 🚶‍♂️
 
 - Join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the latest codewalker version from the `#releases` channel
@@ -55,6 +69,17 @@ It should look like so:
 
 ------------------
 
+# How To Add Interior Scenaros 🏠🕺
+
+Upon researching Mission Row Police Department and Legion Square's interior scenarios, I noticed that the `interior` parameter for MRPD had `v_policehub`.
+
+If we use the [Pleb Master's Website](https://forge.plebmasters.de/mlos) to search for GTA 5 MLO interiors, we can see that v_policehub is the name of the interior.
+
+I am uncertain of how we could go about getting interior scenarios to work inside custom MLO interiors, however I assume the `v_blablabla` would be replaced with the mlo. If you are using a custom MRPD MLO, try using `v_policehub` in the scenario point's `interior` parameter 🤔
+
+
+------------------
+
 # ⚠️ Important Notice
 
 The resource and the scenarios **must** be in *lowercase* and must match what is written in the sp_manifest file.
@@ -66,6 +91,17 @@ For example, if you rename the resource to `nopixel_scenarios` , you must change
 ------------------
 
 I have personally tested the [following scenarios](https://www.gta5-mods.com/scripts/scenario-groups) alongside this resource, and can confirm that they are working in FiveM:
+
+------------------
+
+# Screenshots 📸
+
+| | | |
+|-|-|-|
+| <img src="screenshots/a.png" width="550"> | <img src="screenshots/b.png" width="550"> | <img src="screenshots/c.png" width="550"> |
+| <img src="screenshots/d.png" width="550"> | <img src="screenshots/e.png" width="550"> | <img src="screenshots/f.png" width="550"> |
+| <img src="screenshots/g.png" width="550"> |
+
 
 ------------------
 
@@ -81,7 +117,7 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 **A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deers, pigs, chickens, cows and Poodles.
 
-<img src="screenshots/stables.png" width="850">
+*(See screenshots above.)*
 
 
 **If you don't see them, try noclipping or teleporting somewhere else, set time to midday and come back.**
