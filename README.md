@@ -40,11 +40,13 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 - Right click, export as xml onto your desktop, now it will open in any text editor
 
-- Open a text editor and add new scenario entry
+- It will appear on your desktop as `sp_manifest.ymt.pso`
 
-- You will need to find YOUR copy of sp_manifest.ymt in your copy of GTA 5
+- Open `sp_manifest.ymt.pso` inside of a text editor and add new scenario entry
 
-- Find the scenario information to copy and paste into the sp_manifest.ymt that I have provided
+- Open `scenario info.txt` which I have provided
+
+- Find the scenario information to copy and paste into the `sp_manifest.ymt.pso` that you exported to XML via Codewalker
 
 Once you have pasted the required scenario information, rename `platform:/levels/gta5/scenario/blablabla` to `compcache:/server_scenarios/blablablabla`.
 
@@ -60,13 +62,15 @@ It should look like so:
   </Item>
 ```
 
-- Drag and drop `sp_manifest.ymt` back into Codewalker RPF Explorer, now drag it back out
+- In codewalker, delete sp_manifest and right click, import xml, and select your newly modified `sp_manifest.ymt.pso` file.
 
 - Congratulations! It is now a ymt file
 
-- Override the current `sp_manifest.ymt` that is in your server's server_scenarios resource
+- Drag `sp_manifest.ymt` into your server's `server_scenario` folder
 
-- Enjoy your new / customised scenarios streaming to your server
+- Override the current `sp_manifest.ymt` that is in your server's `server_scenarios` resource
+
+- Enjoy your new / customised scenarios streaming to your server.
 
 
 ------------------
