@@ -1,1 +1,1 @@
-print("Server Scenarios by TayMcKenzieNZ has been loaded successfully.")
+print("CalmAI Loaded. NPC Animals  are now Relaxed")

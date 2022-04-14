@@ -1,3 +1,18 @@
--- This is used to calm down the AI animals at the Madrazo Ranch --
-SetRelationshipBetweenGroups(1, `WILD_ANIMAL`, `PLAYER`)
-SetRelationshipBetweenGroups(1,`DOMESTIC_ANIMAL`, `PLAYER`)
+
+SetRelationshipBetweenGroups(1, GetHashKey("HEN"), GetHashKey('PLAYER'))
+SetRelationshipBetweenGroups(1, GetHashKey("DEER"), GetHashKey('PLAYER'))
+SetRelationshipBetweenGroups(1, GetHashKey("WILD_ANIMAL"), GetHashKey('PLAYER'))
+SetRelationshipBetweenGroups(1, GetHashKey("CAT"), GetHashKey('PLAYER'))
+SetRelationshipBetweenGroups(1, GetHashKey("DOMESTIC_ANIMAL"), GetHashKey('PLAYER'))
+SetRelationshipBetweenGroups(1, GetHashKey("GUARD_DOG"), GetHashKey('PLAYER'))
+
+
+
+
+
+
+
+
+
+
+
