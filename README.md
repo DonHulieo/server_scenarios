@@ -26,6 +26,8 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 - Personal chef inside interior of Madrazo's Ranch
 
+*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)
+
 - Removed interior and exterior scenarios and vehicle scenarios from MRPD for use with custom MLOs
 
 ------------------
@@ -69,7 +71,7 @@ It should look like so:
 
 ------------------
 
-# How To Add Interior Scenaros 🏠🕺
+# How To Add Interior Scenarios 🏠🕺
 
 Upon researching Mission Row Police Department and Legion Square's interior scenarios, I noticed that the `interior` parameter for MRPD had `v_policehub`.
 
