@@ -128,7 +128,7 @@ Long story short about PSO, is that allows proper data format to be used rather 
 
 + **"/server_scenarios/"**  = Is where the scenario file is stored, NOT A VANILLA/unmodified file
 
-+ "stables"  = File name without extension, do not use uppercase or spaces if you stream a custom file name
++ **"stables"**  = File name without extension, do not use uppercase or spaces if you stream a custom file name
 
 
 - **Using the same name as a default original GTA 5 scenario, will cancel the default scenario**
