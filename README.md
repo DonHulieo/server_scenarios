@@ -92,7 +92,7 @@ For example, if you rename the resource to `nopixel_scenarios` , you must change
 
 ------------------
 
-I have personally tested the [following scenarios](https://www.gta5-mods.com/scripts/scenario-groups) alongside this resource, and can confirm that they are working in FiveM:
+I have personally tested the [following scenarios](https://www.gta5-mods.com/scripts/scenario-groups) alongside this resource, and can confirm that they are working in FiveM.
 
 ------------------
 
