@@ -1,4 +1,4 @@
-# server_scenarios
+# server_scenarios 🚶‍♂️
 
 
 A FiveM resource by TayMcKenzieNZ allowing custom and modified scenarios to work in your servers.
@@ -16,19 +16,71 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
-# Features
+# Features ⚙️
+
+# stables - Madrazo's Ranch: 🐴
 
 - Workers at Madrazo's Ranch
 
-- Poodles at Madrazo's Ranch
+- Poodles at Madrazo's Ranch 🐩
 
-- Maids inside interior of Madrazo's Ranch
+- Maids inside interior of Madrazo's Ranch 
 
-- Personal chef inside interior of Madrazo's Ranch
+- Personal chef inside interior of Madrazo's Ranch 👨‍🍳
 
-*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)
+*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
 
 - Removed interior and exterior scenarios and vehicle scenarios from MRPD for use with custom MLOs
+
+------------------
+
+# mission_row - Mission Row Police Department 👮
+
+- Removed interior scenario peds 
+
+- Removed vehicle scenario spawns from Mission Row Police Department 
+
+------------------
+
+# downtown_construction_site - Job Center 👷
+
+- Removed construction NPC scenarios
+
+*To work alongside [Wall Fixes](https://github.com/TayMcKenzieNZ/WallFixes)* see screenshot 1 and 2
+
+------------------
+
+# OPTIONAL Folder 📂
+
+# pillbox_hill 🏥
+
+Removed scenario peds from inside the bounds of Legion Square for use with custom MLOs, as well as making peds nearby the hospital high priority, change two peds to medics and enabled ambulance spawn scenarios.
+
+------------------
+
+# strawberry and south_los_santos 👠
+
+Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
+
+
+------------------
+
+# Installation Instructions ⚙️
+
+- Click the green button that says `code` and select `Download Zip`
+
+- Open with WinZip, WinRar or 7Zip
+
+- Select the `server_scenario` folder and drag it into your FiveM server and/or scripts folder
+
+- add `start server_scenarios` to your server.cfg
+
+- Restart server or type /start server_scenarios into the chat
+
+- To add the optional files mentioned above, copy the `YMT` file to the stream folder of server_scenarios inside your FiveM server
+
+- Override sp_manifest
+
 
 ------------------
 
