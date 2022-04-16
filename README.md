@@ -210,7 +210,11 @@ You can read more here [HERE](https://opensource.stackexchange.com/questions/172
 
 # More Info
 
-Credit goes to d-bub on Discord for the discovery of the required `data_file "SCENARIO_POINTS_OVERRIDE_PSO_FILE" "sp_manifest.ymt"`.
+Credit goes to d-bub on Discord for the discovery of the required 
+
+```lua
+data_file "SCENARIO_POINTS_OVERRIDE_PSO_FILE" "sp_manifest.ymt"
+```
 
 Long story short about PSO, is that allows proper data format to be used rather than "fake" ymt files, which translates in ability to stream particular scenario files. No longer do we need to stream 100+ scenarios / all just to keep the server from crashing.
 
