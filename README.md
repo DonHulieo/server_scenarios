@@ -52,16 +52,21 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 # OPTIONAL Folder 📂
 
-# pillbox_hill 🏥
+# countryside 🌽
+
+Removed scenario peds from The Yellow Jack Inn and it's interior
+
+------------------
+
+# pillbox_hill 🏥 & downtown
 
 Removed scenario peds from inside the bounds of Legion Square for use with custom MLOs, as well as making peds nearby the hospital high priority, change two peds to medics and enabled ambulance spawn scenarios.
 
 ------------------
 
-# strawberry and south_los_santos 👠
+# strawberry & south_los_santos 👠
 
 Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
-
 
 ------------------
 
