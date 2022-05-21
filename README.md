@@ -232,12 +232,12 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 | | | |
 |-|-|-|
-| <img src="screenshots/a.png" width="550"> | <img src="screenshots/b.png" width="550"> | <img src="screenshots/c.png" width="550"> |
-| <img src="screenshots/d.png" width="550"> | <img src="screenshots/e.png" width="550"> | <img src="screenshots/f.png" width="550"> |
-| <img src="screenshots/g.png" width="550"> | <img src="screenshots/h.png" width="550"> | <img src="screenshots/i.png" width="550"> |
-| <img src="screenshots/j.png" width="550"> | <img src="screenshots/k.png" width="550"> | <img src="screenshots/l.png" width="550"> |
-| <img src="screenshots/m.png" width="550"> | <img src="screenshots/n.png" width="550"> | <img src="screenshots/o.png" width="550"> |
-| <img src="screenshots/p.png" width="550"> | <img src="screenshots/q.png" width="550"> | <img src="screenshots/r.png" width="550"> |
+| <img src="screenshots/a.jpg" width="550"> | <img src="screenshots/b.jpg" width="550"> | <img src="screenshots/c.jpg" width="550"> |
+| <img src="screenshots/d.jpg" width="550"> | <img src="screenshots/e.jpg" width="550"> | <img src="screenshots/f.jpg" width="550"> |
+| <img src="screenshots/g.jpg" width="550"> | <img src="screenshots/h.jpg" width="550"> | <img src="screenshots/i.jpg" width="550"> |
+| <img src="screenshots/j.jpg" width="550"> | <img src="screenshots/k.jpg" width="550"> | <img src="screenshots/l.jpg" width="550"> |
+| <img src="screenshots/m.jpg" width="550"> | <img src="screenshots/n.jpg" width="550"> | <img src="screenshots/o.jpg" width="550"> |
+| <img src="screenshots/p.jpg" width="550"> | <img src="screenshots/q.jpg" width="550"> | <img src="screenshots/r.jpg" width="550"> |
 
 
 ------------------
