@@ -29,9 +29,6 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 - Personal chef inside interior of Madrazo's Ranch 👨‍🍳
 
 *To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
-
-- Removed interior and exterior scenarios and vehicle scenarios from MRPD for use with custom MLOs
-
 ------------------
 
 # mission_row - Mission Row Police Department 👮
