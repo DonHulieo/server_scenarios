@@ -234,7 +234,10 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 |-|-|-|
 | <img src="screenshots/a.png" width="550"> | <img src="screenshots/b.png" width="550"> | <img src="screenshots/c.png" width="550"> |
 | <img src="screenshots/d.png" width="550"> | <img src="screenshots/e.png" width="550"> | <img src="screenshots/f.png" width="550"> |
-| <img src="screenshots/g.png" width="550"> |
+| <img src="screenshots/g.png" width="550"> | <img src="screenshots/h.png" width="550"> | <img src="screenshots/i.png" width="550"> |
+| <img src="screenshots/j.png" width="550"> | <img src="screenshots/k.png" width="550"> | <img src="screenshots/l.png" width="550"> |
+| <img src="screenshots/m.png" width="550"> | <img src="screenshots/n.png" width="550"> | <img src="screenshots/o.png" width="550"> |
+| <img src="screenshots/p.png" width="550"> | <img src="screenshots/q.png" width="550"> | <img src="screenshots/r.png" width="550"> |
 
 
 ------------------
@@ -266,7 +269,7 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 **Q: Can I contact you on Discord or anywhere else for one on one support?**
 
-**A:** NO. If you do happen to tag me on codewalker or DM me on the FiveM forums, you will be ignored.
+**A:** NO. If you do happen to tag me in any of the discord servers I am in regarding this resource, or DM me on the FiveM forums, you will be ignored.
 
 ------------------
 
