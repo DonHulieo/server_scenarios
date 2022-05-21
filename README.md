@@ -46,11 +46,9 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 - Removed construction NPC scenarios
 
-*To work alongside [Wall Fixes](https://github.com/TayMcKenzieNZ/WallFixes)* see screenshot 1 and 2
+*To work alongside [Map Fixes](https://github.com/TayMcKenzieNZ/MallFixes)* see screenshot 1 and 2
 
 ------------------
-
-# OPTIONAL Folder 📂
 
 # countryside 🌽
 
@@ -60,15 +58,88 @@ Removed scenario peds from The Yellow Jack Inn and it's interior
 
 # pillbox_hill 🏥 & downtown
 
-Removed scenario peds from inside the bounds of Legion Square for use with custom MLOs, as well as making peds nearby the hospital high priority, change two peds to medics and enabled ambulance spawn scenarios.
+Removed scenario peds from inside the bounds of Legion Square for use with custom MLOs, as well as making peds nearby the hospital high priority, changed two peds to medics and enabled ambulance spawn scenarios.
 
 ------------------
 
-# strawberry & south_los_santos 👠
+# strawberry  👠
 
 Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
 
 ------------------
+
+# island_drug_fields 🌴
+
+Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE THIS FROM STREAM FOLDER AND sp_manifest.ymt IF GAMEBUILD IS LOWER THAN 2189**
+
+------------------
+
+# race_course 🎲
+
+'Enabled' scenario peds at Diamond Casino & Resort rooftop and exterior
+
+------------------
+
+# eclipse 🍸
+
+'Enabled' scenario peds inside Te-Qui-La-La. **Remove if this is a custom MLO location for your server**
+
+------------------
+
+# gwc_and_golfing_society ⛳
+
+'Enabled' scenario peds at golf course
+
+------------------
+
+# davis_megamall 🟣
+
+'Reenabled' scenario peds at Grove Street
+
+------------------
+
+# vinewood ⭐
+
+'Enabled' scenario peds at Vinewood Boulevard
+
+------------------
+
+# banning 🟡
+
+'Reenabled' Vagos scenario peds
+
+------------------
+
+# cypress_flats 🟡
+
+'Reenabled scenario peds at Cypress Flats containing Vagos gang
+
+------------------
+
+# chamberlain_hills 🟡
+
+'Reenabled scenario peds at Cypress Flats containing Vagos gang
+
+------------------
+
+# lost_mc 🏍️
+
+'Reenabled' Lost MC near Casino
+
+------------------
+
+# south_los_santos.ymt ☀️
+
+'Reenabled' scenario peds near Franklin's Aunts' house
+
+------------------
+
+# richman 🐰
+
+'Reenabled' 'Playboy Mansion' scenario peds and vehicle spawns
+
+------------------
+
 
 # Installation Instructions ⚙️
 
