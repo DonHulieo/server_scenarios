@@ -162,6 +162,12 @@ Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE TH
 
 ------------------
 
+# vinewood 🤩
+
+'Reenabled' Republican Space Rangers and tourists on Vinewood Boulevard 
+
+------------------
+
 # Installation Instructions ⚙️
 
 - Click the green button that says `code` and select `Download Zip`
