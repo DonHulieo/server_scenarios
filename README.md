@@ -16,9 +16,9 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
-# Features ⚙️
+# Scenarios Included: ⚙️
 
-# stables - Madrazo's Ranch: 🐴
+# stables 🐴
 
 - Workers at Madrazo's Ranch
 
@@ -29,9 +29,10 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 - Personal chef inside interior of Madrazo's Ranch 👨‍🍳
 
 *To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
+
 ------------------
 
-# mission_row - Mission Row Police Department 👮
+# mission_row 👮
 
 - Removed interior scenario peds 
 
@@ -39,7 +40,7 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
-# downtown_construction_site - Job Center 👷
+# downtown_construction_site 👷
 
 - Removed construction NPC scenarios
 
@@ -152,11 +153,13 @@ Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE TH
 # downtown_vinewood🍔
 
 'Reenabled' Up N Atom scenario points
+
 ------------------
 
 # los_santos_international_airport ✈️
 
 'Reenabled' Airport scenarios
+
 ------------------
 
 # Installation Instructions ⚙️
