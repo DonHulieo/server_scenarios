@@ -137,6 +137,27 @@ Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE TH
 
 ------------------
 
+# los_santos_freeway 👮🏻‍♂️
+
+'Reenabled' Vinewood Police Department scenario points
+
+------------------
+
+# hawick 👮🏻‍♂️
+
+'Reenabled' Vinewood Police Department continued
+
+------------------
+
+# downtown_vinewood🍔
+
+'Reenabled' Up N Atom scenario points
+------------------
+
+# los_santos_international_airport ✈️
+
+'Reenabled' Airport scenarios
+------------------
 
 # Installation Instructions ⚙️
 
