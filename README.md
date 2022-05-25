@@ -355,14 +355,8 @@ Long story short about PSO, is that allows proper data format to be used rather 
 + **"stables"**  = File name without extension, do not use uppercase or spaces if you stream a custom file name
 
 
-- **Using the same name as a default original GTA 5 scenario, will cancel the default scenario**
+- **Using the same name as a default original GTA 5 scenario, will override the default scenario**
 
-+ Vanilla scenario files can be streamed as normal
++ Vanilla scenario files will need `platform:/levels/gta5/` to be replaced with `compcache:/server_scenarios/`
 
-+ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area  will play
-	
-**How to stream a default vanilla scenario?**
-
-+ Add an entry like is defined on vanilla "sp_manifest.ymt" - EG: platform:/levels/gta5/scenario/downtown
-
-+ Notice that "platform:/" is for default scenario location and "compcache:/" is for custom
++ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area will play
