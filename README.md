@@ -168,6 +168,24 @@ Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE TH
 
 ------------------
 
+# ng_panes ✈️
+
+'Reenabled' Fort Zancudo scenario points and vehicle spawns
+
+------------------
+
+# rancho 🚓
+
+'Reenabled' Davis Police Department scenarios
+
+------------------
+
+# davis 🚓
+
+Continued 'Reenabled' Davis Police Department, Fire Department and Central Los Santos Medical Center scenarios
+
+------------------
+
 # Installation Instructions ⚙️
 
 - Click the green button that says `code` and select `Download Zip`
