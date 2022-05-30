@@ -198,10 +198,6 @@ Continued 'Reenabled' Davis Police Department, Fire Department and Central Los S
 
 - Restart server or type /start server_scenarios into the chat
 
-- To add the optional files mentioned above, copy the `YMT` file to the stream folder of server_scenarios inside your FiveM server
-
-- Override sp_manifest
-
 
 ------------------
 
@@ -215,7 +211,7 @@ Continued 'Reenabled' Davis Police Department, Fire Department and Central Los S
 
 - It will appear on your desktop as `sp_manifest.ymt.pso`
 
-- Open `sp_manifest.ymt.pso` inside of a text editor and add new scenario entry
+- Open `sp_manifest.ymt.pso` inside of a text editor and add your new scenario entry
 
 - Open `scenario info.txt` which I have provided
 
@@ -235,11 +231,11 @@ It should look like so:
   </Item>
 ```
 
-- In codewalker, delete sp_manifest and right click, import xml, and select your newly modified `sp_manifest.ymt.pso` file.
+- In Codewalker RPF Explorer, delete sp_manifest and right click, import xml, and select your newly modified `sp_manifest.ymt.pso` file.
 
 - Congratulations! It is now a ymt file
 
-- Drag `sp_manifest.ymt` into your server's `server_scenario` folder
+- Drag the newly modified `sp_manifest.ymt` into your server's `server_scenario` folder
 
 - Override the current `sp_manifest.ymt` that is in your server's `server_scenarios` resource
 
