@@ -208,6 +208,6 @@ Long story short about PSO, is that allows proper data format to be used rather 
 
 - **Using the same name as a default original GTA 5 scenario, will override the default scenario**
 
-+ Vanilla scenario files will need `platform:/levels/gta5/` to be replaced with `compcache:/server_scenarios/`
++ Vanilla scenario files need `platform:/levels/gta5/` to be replaced with `compcache:/server_scenarios/`, I have already done this for you
 
 + Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area will play therefore all scenarios have been added
