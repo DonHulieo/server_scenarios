@@ -3,9 +3,7 @@
 
 A FiveM resource by TayMcKenzieNZ allowing custom and modified scenarios to work in your servers.
 
-Contains modified stables scenario at Madrazo's Ranch and downtown construction scenario.
-
-**This resource requires gamebuild 2189 (Cayo Perico) or higher, as the sp_manifest was taken from that DLC.**
+**This resource requires gamebuild 2189 (Cayo Perico) or higher**
 
 You can force your FiveM server to 2189 or higher by reading my [tutorial](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977)
 
@@ -16,7 +14,9 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
-# Scenarios Included: ⚙️
+I have modified the following to assist server owners with custom MLOs in these areas
+
+
 
 # stables 🐴
 
@@ -30,15 +30,11 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 *To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
 
-------------------
-
 # mission_row 👮
 
 - Removed interior scenario peds 
 
 - Removed vehicle scenario spawns from Mission Row Police Department 
-
-------------------
 
 # downtown_construction_site 👷
 
@@ -46,143 +42,29 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 *To work alongside [Map Fixes](https://github.com/TayMcKenzieNZ/MallFixes)* see screenshot 1 and 2
 
-------------------
-
 # countryside 🌽
 
 Removed scenario peds from The Yellow Jack Inn and it's interior
 
-------------------
 
 # pillbox_hill 🏥 & downtown
 
 Removed scenario peds from inside the bounds of Legion Square for use with custom MLOs, as well as making peds nearby the hospital high priority, changed two peds to medics and enabled ambulance spawn scenarios.
 
-------------------
-
 # strawberry  👠
 
 Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
-
-------------------
 
 # island_drug_fields 🌴
 
 Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE THIS FROM STREAM FOLDER AND sp_manifest.ymt IF GAMEBUILD IS LOWER THAN 2189**
 
-------------------
-
 # race_course 🎲
 
 'Enabled' scenario peds at Diamond Casino & Resort rooftop and exterior
 
-------------------
 
-# eclipse 🍸
-
-'Enabled' scenario peds inside Te-Qui-La-La. **Remove if this is a custom MLO location for your server**
-
-------------------
-
-# gwc_and_golfing_society ⛳
-
-'Enabled' scenario peds at golf course
-
-------------------
-
-# davis_megamall 🟣
-
-'Reenabled' scenario peds at Grove Street
-
-------------------
-
-# vinewood ⭐
-
-'Enabled' scenario peds at Vinewood Boulevard
-
-------------------
-
-# banning 🟡
-
-'Reenabled' Vagos scenario peds
-
-------------------
-
-# cypress_flats 🟡
-
-'Reenabled scenario peds at Cypress Flats containing Vagos gang
-
-------------------
-
-# chamberlain_hills 🟡
-
-'Reenabled scenario peds at Cypress Flats containing Vagos gang
-
-------------------
-
-# lost_mc 🏍️
-
-'Reenabled' Lost MC near Casino
-
-------------------
-
-# south_los_santos.ymt ☀️
-
-'Reenabled' scenario peds near Franklin's Aunts' house
-
-------------------
-
-# richman 🐰
-
-'Reenabled' 'Playboy Mansion' scenario peds and vehicle spawns
-
-------------------
-
-# los_santos_freeway 👮🏻‍♂️
-
-'Reenabled' Vinewood Police Department scenario points
-
-------------------
-
-# hawick 👮🏻‍♂️
-
-'Reenabled' Vinewood Police Department continued
-
-------------------
-
-# downtown_vinewood🍔
-
-'Reenabled' Up N Atom scenario points
-
-------------------
-
-# los_santos_international_airport ✈️
-
-'Reenabled' Airport scenarios
-
-------------------
-
-# vinewood 🤩
-
-'Reenabled' Republican Space Rangers and tourists on Vinewood Boulevard 
-
-------------------
-
-# ng_panes ✈️
-
-'Reenabled' Fort Zancudo scenario points and vehicle spawns
-
-------------------
-
-# rancho 🚓
-
-'Reenabled' Davis Police Department scenarios
-
-------------------
-
-# davis 🚓
-
-Continued 'Reenabled' Davis Police Department, Fire Department and Central Los Santos Medical Center scenarios
+All other scenarios are in the their default state.
 
 ------------------
 
@@ -201,45 +83,18 @@ Continued 'Reenabled' Davis Police Department, Fire Department and Central Los S
 
 ------------------
 
-# How To Add Scenarios 🚶‍♂️
+# How To Modify Scenarios 🚶‍♂️
+
+I have provided all of the scenario files within the stream folder. All that is required of you to do, is the following: 
 
 - Join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the latest codewalker version from the `#releases` channel
 
-- Drag and drop `sp_manifest.ymt` into Codewalker RPF Explorer with edit mode on
+- Open codewalker and press T to open toolbox
 
-- Right click, export as xml onto your desktop, now it will open in any text editor
+- Start a new project
 
-- It will appear on your desktop as `sp_manifest.ymt.pso`
+- Select Open Files and select the scenario file you wish to edit. Alternatively, you can select Scenarios from the toolbar, select a scenario, add it to your project, save and replace the existing one in the stream folder.
 
-- Open `sp_manifest.ymt.pso` inside of a text editor and add your new scenario entry
-
-- Open `scenario info.txt` which I have provided
-
-- Find the scenario information to copy and paste into the `sp_manifest.ymt.pso` that you exported to XML via Codewalker
-
-Once you have pasted the required scenario information, rename `platform:/levels/gta5/scenario/blablabla` to `compcache:/server_scenarios/blablablabla`.
-
-It should look like so:
-
-```xml
-<Item type="CScenarioPointRegionDef">
-   <Name>compcache:/server_scenarios/downtown_construction_site</Name>
-   <AABB>
-    <min x="-368.8696" y="-1183.929" z="17.63847" />
-    <max x="46.45136" y="-781.7375" z="107.8484" />
-   </AABB>
-  </Item>
-```
-
-- In Codewalker RPF Explorer, delete sp_manifest and right click, import xml, and select your newly modified `sp_manifest.ymt.pso` file.
-
-- Congratulations! It is now a ymt file
-
-- Drag the newly modified `sp_manifest.ymt` into your server's `server_scenario` folder
-
-- Override the current `sp_manifest.ymt` that is in your server's `server_scenarios` resource
-
-- Enjoy your new / customised scenarios streaming to your server.
 
 
 ------------------
@@ -293,7 +148,7 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 **Q: How can I tell if this resource is working?**
 
-**A:** Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deers, pigs, chickens, cows and Poodles.
+**A:** All scenario files up until 2612 (aka mpg9ec) are being streamed. Visit Madrazo's Ranch (aka La Fuente Blanca) and you should see that there are deers, pigs, chickens, cows and poodles.
 
 *(See screenshots above.)*
 
@@ -304,7 +159,7 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 **Q: Can you please make this work with XXXX DLC!**
 
-**A:** It should already work for DLCs above 2189 Cayo Perico DLC, do let me know if it doesn't
+**A:** It should already work for DLCs above 2189 Cayo Perico DLC.
 
 ------------------
 
@@ -340,7 +195,7 @@ Long story short about PSO, is that allows proper data format to be used rather 
 
 ------------------
 
-- Inside the sp_manifest.ymt and short how to
+- Inside the sp_manifest.ymt:
 
 + **compcache:/server_scenarios/**
 
@@ -355,4 +210,4 @@ Long story short about PSO, is that allows proper data format to be used rather 
 
 + Vanilla scenario files will need `platform:/levels/gta5/` to be replaced with `compcache:/server_scenarios/`
 
-+ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area will play
++ Only files that are on "sp_manifest.ymt" will stream, if file does not exist, no scenarios for a particular area will play therefore all scenarios have been added
