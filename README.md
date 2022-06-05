@@ -1,7 +1,7 @@
 # server_scenarios 🚶‍♂️
 
 
-A FiveM resource by TayMcKenzieNZ allowing custom and modified scenarios to work in your servers.
+A FiveM resource by TayMcKenzieNZ allowing modified scenarios to work in your servers.
 
 **This resource requires gamebuild 2189 (Cayo Perico) or higher**
 
