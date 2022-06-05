@@ -14,21 +14,7 @@ You can force your FiveM server to 2189 or higher by reading my [tutorial](https
 
 ------------------
 
-# I have modified the following to assist server owners with custom MLOs in these areas
-
-
-
-# stables 🐴
-
-- Workers at Madrazo's Ranch
-
-- Poodles at Madrazo's Ranch 🐩
-
-- Maids inside interior of Madrazo's Ranch 
-
-- Personal chef inside interior of Madrazo's Ranch 👨‍🍳
-
-*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
+# I have modified the following to assist server owners with custom MLOs in these areas:
 
 # mission_row 👮
 
@@ -54,6 +40,20 @@ Removed scenario peds from inside the bounds of Legion Square for use with custo
 # strawberry  👠
 
 Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
+
+# stables 🐴
+
+- Workers at Madrazo's Ranch
+
+- Poodles at Madrazo's Ranch 🐩
+
+- Maids inside interior of Madrazo's Ranch 
+
+- Personal chef inside interior of Madrazo's Ranch 👨‍🍳
+
+*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
+
+
 
 # island_drug_fields 🌴
 
