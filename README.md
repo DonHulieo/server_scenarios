@@ -163,6 +163,23 @@ I have personally tested the [following scenarios](https://www.gta5-mods.com/scr
 
 ------------------
 
+**Q:** A new DLC just dropped with new scenarios, how do I add them?
+
+**A:** Open codewalker and enable DLC Level to the new DLC. Start a new project and visit the location where the new DLC scenarios take place.
+Add it to your project and save it to the resource's stream folder.
+
+If it overrides an existing scenario YMT, you will not need to do anything else.
+
+If it is a new scenario file, you will need to use Codewalker RPF Explorer to update your sp_manifest. 
+
+The easiest way is to open Codewalker RPF explorer and search for `sp_manifest.ymt`. There'll be a few, so search them for the new DLC scenario. Once you find it, export it as XML and change the name to scenarios.xml.pso.
+
+Add the sp_manifest from this resource into Codewalker RPF Explore and export as XML. Rename it as sp_manifest.xml.pso.
+
+Edit it in a text editor such as Notepad++ or visual studio, paste everything from scenarios.xml.pso inside the sp_manifest.xml.pso and hit save, then search and replace `platform:/levels/gta5/` with `compcache:/server_scenarios.
+
+------------------
+
 **Q: Can I contact you on Discord or anywhere else for one on one support?**
 
 **A:** NO. If you do happen to tag me in any of the discord servers I am in regarding this resource, or DM me on the FiveM forums, you will be ignored.
