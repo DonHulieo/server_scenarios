@@ -64,7 +64,7 @@ Replaced Cayo Perico's scenario file and added additional scenarios. **REMOVE TH
 'Enabled' scenario peds at Diamond Casino & Resort rooftop and exterior
 
 
-All other scenarios are in the their default state.
+All other scenarios are in the their default state, however may be modified to high priority.
 
 ------------------
 
