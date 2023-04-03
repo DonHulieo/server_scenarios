@@ -1,5 +1,12 @@
 # server_scenarios 🚶‍♂️
 
+<p align="center">
+    <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License">
+    <img src="https://img.shields.io/github/stars/TayMcKenzieNZ/server_scenarios.svg?style=social" alt="Star">
+    <img src="https://img.shields.io/github/forks/TayMcKenzieNZ/server_scenarios.svg?style=social&label=Forks" alt="Forks">
+</p>
+
+
 
 A FiveM resource by TayMcKenzieNZ allowing modified scenarios to work in your servers.
 
