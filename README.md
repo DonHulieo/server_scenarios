@@ -58,7 +58,6 @@ Removed interior scenario peds from Vanilla Unicorn for use with custom MLOs
 
 - Personal chef inside interior of Madrazo's Ranch 👨‍🍳
 
-*To work alongside [Ranch De Caniche](https://github.com/TayMcKenzieNZ/Ranch-De-Caniche)*
 
 
 
@@ -96,11 +95,11 @@ I have provided all of the scenario files within the stream folder. All that is 
 
 - Join the [Codewalker Discord](https://discord.gg/MKzzKKxFv8) and grab the latest codewalker version from the `#releases` channel
 
-- Open codewalker and press T to open toolbox
+- Open Codewalker and press T to open toolbox
 
 - Start a new project
 
-- Select Open Files and select the scenario file you wish to edit. Alternatively, you can select Scenarios from the toolbar, select a scenario, add it to your project, save and replace the existing one in the stream folder.
+- Select `Open Files` and select the scenario file you wish to edit. Alternatively, you can select `Scenarios` from the toolbar, select a scenario, add it to your project, save and replace the existing one in the stream folder.
 
 
 
@@ -124,6 +123,10 @@ The resource and the scenarios **must** be in *lowercase* and must match what is
 For example, if you rename the resource to `nopixel_scenarios` , you must change the file paths in the sp_manifest to match the resource name;
 
 `<Name>compcache:/nopixel_scenarios/downtown</Name>`
+
+# CalmAI 
+
+Animals, gang members and other NPCs have been modified using the implement [Calm-AI](https://github.com/TayMcKenzieNZ/Calm-AI) resource implemented into this script. you can modify or remove this in any way that suits your needs.
 
 ------------------
 
