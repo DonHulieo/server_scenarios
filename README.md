@@ -102,6 +102,15 @@ I have provided all of the scenario files within the stream folder. All that is 
 - Select `Open Files` and select the scenario file you wish to edit. Alternatively, you can select `Scenarios` from the toolbar, select a scenario, add it to your project, save and replace the existing one in the stream folder.
 
 
+Don't delete scenarios with red lines, instead, select them and give it the NoSpawn flag, then put the white boxes under the map slightly so they're not obatructing your view. 
+
+singular white boxes without red lines, can be modified, changed or deleted.
+
+you can also set times whixh the scenarios start and end.
+
+### If any brainiacs know of a better way to do this whole resource, I would be mote than happy for them to provide documentation and a YouTube tutorial, or at least a pull request, otherwise, simply understand that this is clearly stated a "Work In Progress" and is not on the top of the list of my priorities nor concerns.
+
+
 
 ------------------
 
