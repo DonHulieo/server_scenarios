@@ -1,5 +1,6 @@
 fx_version "cerulean"
 game "gta5"
+author 'TayMcKenzieNZ'
 
 file "sp_manifest.ymt"
 data_file "SCENARIO_POINTS_OVERRIDE_PSO_FILE" "sp_manifest.ymt"
@@ -16,3 +17,4 @@ data_file 'FIVEM_LOVES_YOU_4B38E96CC036038F' 'events.meta'
 server_script 'server.lua'
 client_script 'client.lua'
 
+print("Server Scenarios by TayMcKenzieNZ.")
